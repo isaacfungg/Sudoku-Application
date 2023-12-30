@@ -37,7 +37,7 @@ public class TestGameGenerator {
                 }
             }
         }
-
+        System.out.println("test");
         Assert.assertTrue(nonEmptyCells > 0);
     }
 
