@@ -43,7 +43,7 @@ public class GameGenerator {
         return solvableArray;
     }
 
-    private static int[][] getSolvedGame() {
+    public static int[][] getSolvedGame() {
         Random random = new Random(System.currentTimeMillis());
         int[][] newGrid = new int[GRID_BOUNDARY][GRID_BOUNDARY];
 

@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 public class SudokuGame implements Serializable {
 
-    private final GameState gameState;
+    private GameState gameState;
     private final int[][] gridState;
     public static final int GRID_BOUNDARY = 9;
 
@@ -22,5 +22,9 @@ public class SudokuGame implements Serializable {
 
     public int[][] getGridState() {
         return SudokuUtilities.copyToNewArray(gridState);
+    }
+
+    public void setGameState(GameState gameState) {
+        this.gameState = gameState;
     }
 }
