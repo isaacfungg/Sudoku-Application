@@ -1,7 +1,7 @@
-# Sudoku Solver Application
+# Sudoku Application
 
 ## Overview
-The Sudoku Solver Application is a Java-based tool designed to solve Sudoku puzzles efficiently. It provides an interactive platform for users to input their Sudoku puzzles and receive the solved puzzle in return. The application combines a user-friendly interface with powerful computational logic to cater to both Sudoku enthusiasts and those looking for a quick solution to their puzzles.
+The Sudoku Application is a Java-based tool designed to create Sudoku puzzles. It provides an interactive platform for users solve a newly generated Sudoku puzzle. The application combines a user-friendly interface with powerful computational logic to cater to both Sudoku enthusiasts and those looking for a quick puzzle.
 
 ## Features
 - **Game Generator:** Generates solvable Sudoku puzzles of varying difficulty levels for users to solve.
